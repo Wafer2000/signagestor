@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854978837877",
+    "project_id": "signagestor",
+    "storage_bucket": "signagestor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854978837877:android:ee1619f8fa29ec1ff1a73c",
+        "android_client_info": {
+          "package_name": "com.example.signagestor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vfvUZ_XRBxXQ3x__hKOM_zTo4xcLy6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

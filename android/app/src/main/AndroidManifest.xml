@@ -1,6 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signagestor">
     <application
-        android:label="signagestor"
+        android:label="SignaGestor"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -35,6 +36,7 @@
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA5vfvUZ_XRBxXQ3x__hKOM_zTo4xcLy6o"/>
     <queries>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
