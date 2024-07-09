@@ -35,10 +35,6 @@ body {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
   }
 
-  .max-container {
-    @apply mx-auto max-w-[1440px];
-  }
-
   .padding-container {
     @apply px-6 lg:px-20 3xl:px-0;
   }
@@ -128,35 +124,29 @@ body {
     @apply text-[16px] font-[700];
   }
 
-  /* Inicio */
   .inicio-map {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
-  .map {
+  .text {
     @apply relative right-0 top-0 max-h-[306px] max-w-[539px] bg-map z-20 flex flex-col gap-8 rounded-3xl px-7 py-8 flex-1 items-start bg-no-repeat bg-cover;
   }
 
-  /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
   }
 
-  /* Get App */
   .QuienesSomos {
-    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b from-[#e4faff] to-[#dce9fd] bg-cover bg-center bg-no-repeat px-6 py-12 text-[#000000] sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
+    @apply relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b from-[#e4faff] to-[#dce9fd] bg-cover bg-center bg-no-repeat px-6 py-12 text-[#000000] sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
   }
 
 
-  /* Nuestro Perfil */
   .nuestroperfil {
-    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b from-[#dce9fd] to-[#e4faff] bg-cover bg-center bg-no-repeat px-6 py-12 text-[#000000] sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
+    @apply relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b from-[#dce9fd] to-[#e4faff] bg-cover bg-center bg-no-repeat px-6 py-12 text-[#000000] sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px];
   }
 
-
-  /* Nuestro Perfil */
   .proteccion {
-    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b bg-[#ffffff] bg-cover bg-center bg-no-repeat px-5 text-[#000000] sm:flex-row;
+    @apply relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-gradient-to-b bg-[#ffffff] bg-cover bg-center bg-no-repeat px-5 text-[#000000] sm:flex-row;
   }
 
 }

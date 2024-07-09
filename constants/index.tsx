@@ -1,21 +1,17 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'inicio', label: 'Inicio' },
-  { href: '/', key: 'nuestros_servicios', label: 'Nuestros Servicios' },
-  { href: '/', key: 'salud_ocupacional', label: 'Servicios de Salud Ocupacional' },
-  { href: '/', key: 'quienes_somos', label: '¿Quienes Somos?' },
-  { href: '/', key: 'nuestro_perfil', label: 'Nuestro Perfil' },
-  { href: '/', key: 'infraestructura_fisica', label: 'Infraestructura Fisica' },
-  { href: '/', key: 'proteccion', label: 'Protección' },
-  { href: '/', key: 'informacion', label: 'Informacion' },
-];
-
-// CAMP SECTION
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  { href: '#Inicio', key: 'inicio', label: 'Inicio' },
+  { href: '#Servicios', key: 'nuestros_servicios', label: 'Nuestros Servicios' },
+  { href: '#Paquetes', key: 'paquetes', label: 'Paquetes' },
+  { href: '#Salud Ocupacional', key: 'salud_ocupacional', label: 'Servicios de Salud Ocupacional' },
+  { href: '#Quienes Somos', key: 'quienes_somos', label: '¿Quienes Somos?' },
+  { href: '#Mision', key: 'mision', label: 'Mision' },
+  { href: '#Vision', key: 'vision', label: 'Vision' },
+  { href: '#Politicas de Calidad', key: 'poloticas_calidad', label: 'Politicas de Calidad' },
+  { href: '#NuestroPerfil', key: 'nuestro_perfil', label: 'Nuestro Perfil' },
+  { href: '#Infraestructura', key: 'infraestructura_fisica', label: 'Infraestructura Fisica' },
+  { href: '#Proteccion', key: 'proteccion', label: 'Protección' },
+  { href: '#Informacion', key: 'informacion', label: 'Informacion' },
 ];
 
 // SERVICIOS SECTION
@@ -25,7 +21,9 @@ export const SERVICIOS = [
     icon: 'mdi-information',
     variant: 'green',
     description:
-      'Análisis químico de muestras de sangre para diagnosticar y monitorear various condiciones de salud.',
+      'Análisis químico de muestras de sangre para diagnosticar y monitorear varias condiciones de salud.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
   {
     title: 'Inmunologia',
@@ -33,6 +31,8 @@ export const SERVICIOS = [
     variant: 'green',
     description:
       "Estudio del sistema inmunológico para diagnosticar y tratar trastornos relacionados con la inmunidad.",
+    color1: '#88a4ce',
+    color2: '#2e569b'
   },
   {
     title: 'Coagulacion',
@@ -40,6 +40,8 @@ export const SERVICIOS = [
     variant: 'green',
     description:
       'Análisis de factores de coagulación sanguínea para diagnosticar y monitorear trastornos de coagulación.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
   {
     title: 'Hematologia',
@@ -47,6 +49,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Estudio de la sangre y sus componentes para diagnosticar y tratar trastornos relacionados con la sangre.',
+    color1: '#88a4ce',
+    color2: '#2e569b'
   },
   {
     title: 'Microbiologia',
@@ -54,6 +58,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Análisis de microorganismos para diagnosticar y tratar infecciones.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
   {
     title: 'Serologia',
@@ -61,6 +67,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Estudio de la respuesta inmunológica a infecciones y enfermedades.',
+    color1: '#88a4ce',
+    color2: '#2e569b'
   },
   {
     title: 'Pruebas Especiales',
@@ -68,6 +76,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Pruebas especializadas para enfermedades o condiciones específicas, como trastornos genéticos.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
   {
     title: 'Pruebas Hormonales',
@@ -75,6 +85,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Análisis de niveles hormonales para diagnosticar y tratar desequilibrios hormonales.',
+    color1: '#88a4ce',
+    color2: '#2e569b'
   },
   {
     title: 'Pruebas De Embarazo',
@@ -82,6 +94,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Pruebas para confirmar el embarazo y monitorear el desarrollo fetal.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
   {
     title: 'Orina',
@@ -89,6 +103,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Análisis de muestras de orina para diagnosticar y monitorear trastornos renales y del tracto urinario.',
+    color1: '#88a4ce',
+    color2: '#2e569b'
   },
   {
     title: 'Heces Y Mas',
@@ -96,6 +112,8 @@ export const SERVICIOS = [
     variant: 'orange',
     description:
       'Análisis de muestras de heces para diagnosticar y monitorear trastornos gastrointestinales.',
+    color1: '#2e569b',
+    color2: '#88a4ce'
   },
 ];
 
@@ -104,14 +122,14 @@ export const FOOTER_LINKS = [
   {
     title: 'Aprende más',
     links: [
-      { href: 'inicio', key: 'inicio', label: 'Inicio' },
-      { href: 'nuestros_servicios', key: 'nuestros_servicios', label: 'Nuestros Servicios' },
-      { href: 'salud_ocupacional', key: 'salud_ocupacional', label: 'Servicios de Salud Ocupacional' },
-      { href: 'quienes_somos', key: 'quienes_somos', label: '¿Quienes Somos?' },
-      { href: 'nuestro_perfil', key: 'nuestro_perfil', label: 'Nuestro Perfil' },
-      { href: 'infraestructura_fisica', key: 'infraestructura_fisica', label: 'Infraestructura Fisica' },
-      { href: 'proteccion', key: 'proteccion', label: 'Protección' },
-      { href: 'informacion', key: 'informacion', label: 'Informacion' },
+      { key: 'inicio', label: 'Inicio' },
+      { key: 'nuestros_servicios', label: 'Nuestros Servicios' },
+      { key: 'salud_ocupacional', label: 'Servicios de Salud Ocupacional' },
+      { key: 'quienes_somos', label: '¿Quienes Somos?' },
+      { key: 'nuestro_perfil', label: 'Nuestro Perfil' },
+      { key: 'infraestructura_fisica', label: 'Infraestructura Fisica' },
+      { key: 'proteccion', label: 'Protección' },
+      { key: 'informacion', label: 'Informacion' },
     ],
   },
 ];

@@ -12,11 +12,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="es">
-      <body>
+      <body className="overflow-y-auto scroll-smooth block">
         <Navbar />
-        <main className="relative overflow-hidden">
+        <main className="relative overflow-hidden overflow-y-auto scroll-smooth block">
           {children}
         </main>
       </body>
