@@ -75,7 +75,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiChartLine} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   Control de Crecimiento
                 </h2>
                 <button
@@ -215,7 +215,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiPill} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   CONTROL DE DIABETES
                 </h2>
                 <button
@@ -380,7 +380,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiGenderFemale} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   CONTROL MENOPAUSIA
                 </h2>
                 <button
@@ -556,7 +556,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiBloodBag} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   PERFIL ANEMIA
                 </h2>
                 <button
@@ -704,7 +704,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiGenderMale} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   PERFIL HORMONAL MASCULINO
                 </h2>
                 <button
@@ -819,7 +819,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiBone} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   PERFIL REUMÁTICO
                 </h2>
                 <button
@@ -1062,7 +1062,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiAllergy} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   PRUEBAS DE ALERGIAS
                 </h2>
                 <button
@@ -1182,7 +1182,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiMedicalBag} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   PRUEBAS DE TIROIDE
                 </h2>
                 <button
@@ -1362,7 +1362,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiClipboardText} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   CUADRO HEMÁTICO
                 </h2>
                 <button
@@ -1741,7 +1741,7 @@ const Paquetes = () => {
                 <div className='w-10 h-10 flex items-center justify-center rounded-full border bg-[#88a4ce]'>
                   <Icon path={mdiGenderFemale} size={1} color="#ffffff" />
                 </div>
-                <h2 className="bold-20 text-center uppercase text-white">
+                <h2 className="text-center uppercase text-white text-[14px] md:text-2x1 md:font-bold">
                   SEGUIMIENTO HORMONAL FEMENINO
                 </h2>
                 <button

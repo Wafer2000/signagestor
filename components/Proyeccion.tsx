@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Proyeccion = () => (
-  <section className="flexCenter w-full flex-col bg-[#dce9fd]">
+  <section className="flexCenter w-full flex-col bg-[#dce9fd] pb-10">
     <div className='relative text-center items-center'>
       <div className="z-20 flex w-full flex-col">
-        <ul className="p-20 grid gap-10 w-full md:grid-cols-2 lg:grid-cols-3 lg:gap-20">
+        <ul className="grid w-[full] md:grid-cols-2 lg:grid-cols-3">
           <li className="flex flex-1 flex-col items-start lg:items-center lg:text-center" id='Mision'>
-            <div className='bg-[#2e569b] rounded-3xl'>
-              <div className="p-4 flex items-center space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4">
+            <div className='bg-[#2e569b] h-full max-h-[400px] overflow-y-auto'>
+              <div className="items-center pt-4 space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4 text-center">
                 <h2 className="bold-20 lg:bold-32 uppercase text-white">
                   MISION
                 </h2>
@@ -22,9 +22,9 @@ const Proyeccion = () => (
               </div>
             </div>
           </li>
-          <li className="flex flex-1 flex-col items-start lg:items-center lg:text-center" id='Vision'>
-            <div className='bg-[#88a4ce] rounded-3xl'>
-              <div className="p-4 flex items-center space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4">
+          <li className="flex flex-1 flex-col items-start lg:items-center lg:text-center" id='Mision'>
+            <div className='bg-[#88a4ce] h-full max-h-[400px] overflow-y-auto'>
+              <div className="items-center pt-4 space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4 text-center">
                 <h2 className="bold-20 lg:bold-32 uppercase text-white">
                   VISION
                 </h2>
@@ -39,9 +39,9 @@ const Proyeccion = () => (
               </div>
             </div>
           </li>
-          <li className="flex flex-1 flex-col items-start lg:items-center lg:text-center" id='Politicas de Calidad'>
-            <div className='bg-[#2e569b] rounded-3xl'>
-              <div className="p-4 flex items-center space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4">
+          <li className="flex flex-1 flex-col items-start lg:items-center lg:text-center" id='Mision'>
+            <div className='bg-[#2e569b] h-full max-h-[400px] overflow-y-auto'>
+              <div className="items-center pt-4 space-x-4 lg:flex-col lg:space-x-0 lg:space-y-4 text-center">
                 <h2 className="bold-20 lg:bold-32 uppercase text-white">
                   POLITICAS DE CALIDAD
                 </h2>

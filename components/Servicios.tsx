@@ -8,10 +8,10 @@ const Servicios = () => {
       <div className="relative w-full flex flex-col">
         <div className="z-20 flex w-full flex-col">
           <div className='relative text-center items-center'>
-            <h2 className="bold-40 lg:bold-64 text-[#2e569b] uppercase">
+            <h2 className="bold-40 lg:bold-60 text-[#2e569b] uppercase">
               Nuestros Servicios
             </h2>
-            <h2 className="p-5 text-gray-30">
+            <h2 className="p-5 text-gray-30 lg:text-[20px]">
               La función principal del Laboratorio Clínico Landsteiner, es el analisis de las diferentes muestras de especímenes biológicos de origen humano, como:
             </h2>
           </div>

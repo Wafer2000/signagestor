@@ -1,11 +1,12 @@
 import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 const Informacion = () => {
   return (
     <footer className="flexCenter w-full bg-[#2e569b] pb-5 overflow-y-auto scroll-smooth" id='Informacion'>
-      <div className="padding-container flex w-full flex-col gap-14 pt-10">
+      <div className="padding-container flex w-full flex-col gap-14 pt-10 px-30 mx-10">
         <div className="flex flex-col items-start justify-center md:flex-row">
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1 text-[#ffff]'>
@@ -13,9 +14,9 @@ const Informacion = () => {
               <FooterColumn title={columns.title}>
                 <div className="regular-14 flex flex-col">
                   {columns.links.map((link) => (
-                    <p key={link.key}>
+                    <Link href={link.href} key={link.key} className="text-white cursor-pointer pb-1.5 transition-all hover:font-bold text-start text-[14px]">
                       {link.label}
-                    </p>
+                    </Link>
                   ))}
                 </div>
               </FooterColumn>
